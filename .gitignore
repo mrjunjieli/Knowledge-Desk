@@ -1,0 +1,27 @@
+# Credentials and personal data never belong in source control.
+.env
+.env.*
+!.env.example
+data/
+*-data/
+settings*.json
+*.sqlite*
+*.db
+*.pem
+*.key
+*.p12
+*.pfx
+*.pdf
+*.tar*
+*.zip
+attachments/
+backups/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+test-results/
+playwright-report/
+*.log
+.DS_Store
